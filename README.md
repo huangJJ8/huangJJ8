@@ -39,7 +39,13 @@ Autonomous **ReAct agent** for enterprise data analysis, risk assessment and fin
 consulting. **20+ tools** with Zod-validated schemas, multi-turn session management and
 real-time **SSE** streaming — no predefined intent classification.
 
-**[→ View Project](https://github.com/huangJJ8/business_advisor)**
+Built as an **explicit LangGraph `StateGraph`** (`model` ⇄ `tools`) rather than a
+black-box wrapper, with a **deterministic output sanitizer** that rewrites internal tool /
+field names into business terms and is safe under token-level streaming, plus a
+**circuit breaker** (≤ 15 tool calls, ≤ 3 per tool) against runaway loops. Public version
+is fully desensitized.
+
+**[→ View Project](https://github.com/huangJJ8/Enterprise-Business-Advisor-Agent)**
 
 <br/>
 
