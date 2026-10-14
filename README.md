@@ -45,7 +45,7 @@ field names into business terms and is safe under token-level streaming, plus a
 **circuit breaker** (≤ 15 tool calls, ≤ 3 per tool) against runaway loops. Public version
 is fully desensitized.
 
-**[→ View Project](https://github.com/huangJJ8/Enterprise-Business-Advisor-Agent)**
+**[→ View Project](https://github.com/huangJJ8/enterprise-business-advisor-agent)**
 
 <br/>
 
